@@ -1,4 +1,4 @@
-# SkyBeat --A flight status app
+# SkyBeat --A flight status website
 
 ## Overview
 
