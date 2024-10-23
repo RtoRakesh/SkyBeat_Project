@@ -30,7 +30,7 @@ This is a React-based flight status board that fetches real-time flight data fro
 1. Clone the repository:
    ```bash
    git clone https://github.com/RtoRakesh/SkyBeat_Project.git
-   cd flight-status-app
+   cd SkyBeat_Project
    ```
 2. Install Dependencies:
    ```bash
