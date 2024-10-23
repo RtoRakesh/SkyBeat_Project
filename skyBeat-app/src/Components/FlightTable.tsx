@@ -54,7 +54,12 @@ const FlightTable = () => {
           minHeight="100vh"
         >
           <TableContainer>
-            <Heading textAlign="center" pb="4" fontFamily="mono">
+            <Heading
+              textAlign="center"
+              pb="4"
+              fontFamily="mono"
+              fontSize={{ base: "md", md: "xl", lg: "2xl", xl: "3xl" }}
+            >
               Live Flight Information
             </Heading>
             <Table

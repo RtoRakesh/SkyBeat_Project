@@ -65,6 +65,7 @@ const FlightDetailView = () => {
               colorScheme="blue"
               variant="solid"
               onClick={() => navigate("/")}
+              position="static"
             >
               ← Back
             </Button>
