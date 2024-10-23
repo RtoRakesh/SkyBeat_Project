@@ -1,11 +1,4 @@
-import {
-  Button,
-  ButtonGroup,
-  Flex,
-  Heading,
-  Image,
-  Spacer,
-} from "@chakra-ui/react";
+import { ButtonGroup, Flex, Heading, Image, Spacer } from "@chakra-ui/react";
 import logo from "../assets/airoLogo.png";
 
 const Navbar = () => {

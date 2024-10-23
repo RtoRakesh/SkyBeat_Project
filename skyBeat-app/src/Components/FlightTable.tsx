@@ -28,8 +28,8 @@ const FlightTable = () => {
       );
       setFlights(res.data);
       setError(null);
-    } catch (err) {
-      //   setError(err.message);
+    } catch (err: any) {
+      setError(err.message);
       console.log("error while fetching data from api", err);
     }
   };
@@ -46,7 +46,13 @@ const FlightTable = () => {
       {error ? (
         <p>Error in fetching The data</p>
       ) : (
-        <Box overflowX="auto" display="flex" justifyContent="center" pt="15vh">
+        <Box
+          overflowX="auto"
+          display="flex"
+          justifyContent="center"
+          pt="15vh"
+          minHeight="100vh"
+        >
           <TableContainer>
             <Heading textAlign="center" pb="4" fontFamily="mono">
               Live Flight Information
@@ -71,7 +77,7 @@ const FlightTable = () => {
               </Thead>
               <Tbody>
                 {flights.map((flight) => (
-                  <Tr key={flight.id}>
+                  <Tr key={flight.id?.toString()}>
                     <Td color="blue">
                       <Link to={`/${flight.id}`}>{flight.flightNumber}</Link>
                     </Td>

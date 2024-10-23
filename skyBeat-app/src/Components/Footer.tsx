@@ -18,13 +18,13 @@ const Footer = () => {
         gap="2"
         flexDirection={{ base: "column", md: "row" }}
         backgroundColor="gray.100"
-        height="8vh"
+        height="100%"
         borderTop="1px solid"
         borderColor="black"
       >
-        <Flex>
-          <Image boxSize="30px" src={logo} alt="Logo" />
-          <Heading size="md" px="2">
+        <Flex pt={{ base: "10px" }}>
+          <Image boxSize="25px" src={logo} alt="Logo" />
+          <Heading size="md" px="1">
             SkyBeat
           </Heading>
         </Flex>
