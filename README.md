@@ -22,7 +22,7 @@ This is a React-based flight status board that fetches real-time flight data fro
 
 ## Deployed Link
 
- SkyBeat-[Live Demo](https://skybeat001.netlify.app/)
+ SkyBeat-[Live Demo](https://skybeat-f5.netlify.app/)
 
 
 ## Installation
