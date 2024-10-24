@@ -41,7 +41,7 @@ const FlightTable = () => {
   useEffect(() => {
     fetchData();
 
-    const id = setInterval(() => fetchData(), 1000);
+    const id = setInterval(() => fetchData(), 3500);
     return () => clearInterval(id);
   }, []);
 
