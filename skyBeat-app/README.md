@@ -20,6 +20,10 @@ This is a React-based flight status board that fetches real-time flight data fro
 - Jest (for testing)
 - React Testing Library (for component tests)
 
+## Deployed Link
+
+ SkyBeat-[Live Demo](https://skybeat-f5.netlify.app/)
+
 ## Installation
 
 1. Clone the repository:
